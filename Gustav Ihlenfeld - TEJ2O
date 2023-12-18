@@ -1,0 +1,10 @@
+print ("Today, we will calculate the area of a trapezoid. ")
+Base1 = float(input("What is the length of the first base? "))
+Base2 = float(input("What is the length of the second base? "))
+Height = float(input("What is the height of the trapezoid? "))
+
+area = (Base1 + Base2) * Height / 2
+
+print(f"The area of a trapezoid with Base 1 {Base1} and Base 2 {Base2} and a height of {Height} cm is {area} cm^2.")
+
+ 
