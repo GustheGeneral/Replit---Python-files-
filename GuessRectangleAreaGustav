@@ -1,0 +1,19 @@
+def guess_area_rectangle():
+  print("Welcome to the Area of a Rectangle Guesser")
+
+  # Gets the user input for length, width, and their guessed area 
+  length = float(input("Enter the length of the rectangle: "))
+  width = float(input("Enter the width of the rectangle: "))
+  guessed_area = float(input("Guess the area of the rectangle: "))
+
+  # Calculate the correct area
+  correct_area = length * width
+
+  # Check if the guessed area is correct
+  if guessed_area == correct_area:
+            print("Nice one! You got it right! " )
+  else:
+      print("Unfortunately, your guess was wrong. The correct area is [correct_area].")
+
+if __name__ == "__main__":
+    guess_area_rectangle()
