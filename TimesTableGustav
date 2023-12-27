@@ -1,0 +1,15 @@
+def times_table():
+  
+  user_number = int(input("Enter positive integer here: "))  # Asks user for input 
+
+  if user_number <= 0:
+      print("Enter a positive integer, please.")  # Checks if the input is positive 
+      return 
+
+  print(f"Times table for {user_number}:")  # Prints the multiplication table from 0 to 10
+  for i in range(11):
+      result = user_number * i
+      print(f"{user_number} * {i} = {result}")  # Prints the result
+
+times_table()
+ 
